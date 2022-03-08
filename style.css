@@ -3,6 +3,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: #12181b;
+  font-family: sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -14,6 +15,10 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.container label {
+  color: #fff;
+  padding: 15px;
 }
 .container input {
   border: none;
